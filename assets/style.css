@@ -2885,11 +2885,7 @@ input:focus {
     border-radius: 20px;
     transition: transform .4s ease, box-shadow .4s ease;
     background: rgba(255, 255, 255, 0.0);
-        /* Frosted glass effect */
     backdrop-filter: blur(10px);
-   
-    
-    /* Optional: subtle shadow for depth */
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
 }
 
