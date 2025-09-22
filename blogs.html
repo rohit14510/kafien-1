@@ -36,6 +36,7 @@
 
     <!-- ✅ Animate.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- ✅ Swiper 8 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
@@ -257,16 +258,16 @@
             <!--  Start blog  -->
             <section class="tc-blog-st2">
                 <div class="container">
-                    <div class="title text-center col-lg-6 mx-auto mb-50 wow fadeInUp slow" data-wow-delay="0.2s">
+                    <div class="title text-center col-lg-6 mx-auto mb-50 wow fadeInUp slow" data-aos="zoom-out" data-aos-duration="1200">
                         <div class="icon icon-50 mx-auto">
-                            <img src="./assets/image/vec5.png" alt="" class="img-contain">
+                            <img src="./assets/image/vec3.png" alt="" class="img-contain">
                         </div>
                         <h2 class="fsz-50 mt-15"> Latest New and blogs </h2>
                         <div class="text fsz-16 mt-20" style="color: #4A1E0D;"> Proin at lorem justo. Sed maximus risus
                             hendrerit ipsum sodales,
                             vel consequat dui ultrices. Vestibulum ante ipsum primis in faucibus orci luctus. </div>
                     </div>
-                    <div class="posts-slider wow fadeInUp slow" data-wow-delay="0.4s">
+                    <div class="posts-slider wow fadeInUp slow" data-aos="fade-down-right" data-aos-duration="1200">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="post-card">
@@ -551,7 +552,10 @@
 
         <!-- === main === -->
         <script src="./assets/main.js"></script>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script> 
 
 
 </body>

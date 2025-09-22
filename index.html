@@ -36,6 +36,7 @@
 
     <!-- ✅ Animate.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- ✅ Swiper 8 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
@@ -267,14 +268,14 @@
             <!--Contents-->
 
             <!-- Start About -->
-            <section class="about-parallax-section text-white">
+            <section class="about-parallax-section text-white overflow-x">
                 <div class="parallax-bg"></div> <!-- Fixed Background -->
 
                 <div class="container ">
                     <div class="row">
 
                         <!-- Left: Image col-5 top aligned -->
-                        <div class="col-lg-5 d-flex align-items-start mb-4 mb-lg-0">
+                        <div class="col-lg-5 d-flex align-items-start mb-4 mb-lg-0"data-aos="fade-down-right" data-aos-duration="1200">
                             <div class="about-image wow fadeInUp slow sticky-top" data-wow-delay="0.2s">
                                 <img src="./assets/image/kaffen.webp" alt="Cafe"
                                     class="img-fluid rounded shadow-lg w-100 h-auto">
@@ -284,7 +285,7 @@
 
                         <!-- Right: Text Content col-7 vertically centered -->
                         <div class="col-lg-7 d-flex align-items-center">
-                            <div class="about-text wow fadeInUp slow" data-wow-delay="0.2s">
+                            <div class="about-text wow fadeInUp slow " data-wow-delay="0.2s" data-aos="fade-down-left" data-aos-duration="1200">
 
                                 <h2 class="fsz-50 mb-20">Explore The History Of the Cafe</h2>
 
@@ -331,9 +332,9 @@
             </section>
             <!-- End About -->
 
-            <section class="features-section py-5">
+            <section class="features-section py-5 overflow-x">
                 <div class="container">
-                    <div class="title text-center col-lg-7 mx-auto mb-50 wow fadeInUp slow" data-wow-delay="0.2s">
+                    <div class="title text-center col-lg-7 mx-auto mb-50 wow fadeInUp slow " data-aos="zoom-in" data-aos-duration="1200">
                         <h2 class="fsz-50 mb-20">
                             Services We Provide
                         </h2>
@@ -345,7 +346,7 @@
 
                         <!-- Feature 1 -->
                         <div class="col-6 col-md-4 col-lg-2">
-                            <div class="feature-card">
+                            <div class="feature-card "data-aos="fade-down-right" data-aos-duration="1200">
                                 <div class="icon-wrap mb-3">
                                     <i class="bi bi-clock"></i>
                                 </div>
@@ -355,7 +356,7 @@
 
                         <!-- Feature 2 -->
                         <div class="col-6 col-md-4 col-lg-2">
-                            <div class="feature-card">
+                            <div class="feature-card " data-aos="fade-down-right" data-aos-duration="1200">
                                 <div class="icon-wrap mb-3">
                                     <i class="bi bi-truck"></i>
                                 </div>
@@ -365,7 +366,7 @@
 
                         <!-- Feature 3 -->
                         <div class="col-6 col-md-4 col-lg-2">
-                            <div class="feature-card">
+                            <div class="feature-card " data-aos="fade-down-right" data-aos-duration="1200">
                                 <div class="icon-wrap mb-3">
                                     <i class="bi bi-book"></i>
                                 </div>
@@ -375,7 +376,7 @@
 
                         <!-- Feature 4 -->
                         <div class="col-6 col-md-4 col-lg-2">
-                            <div class="feature-card">
+                            <div class="feature-card "data-aos="fade-down-left" data-aos-duration="1200">
                                 <div class="icon-wrap mb-3">
                                     <i class="bi bi-bag"></i>
                                 </div>
@@ -385,7 +386,7 @@
 
                         <!-- Feature 5 (Pre-Order) -->
                         <div class="col-6 col-md-4 col-lg-2">
-                            <div class="feature-card">
+                            <div class="feature-card "data-aos="fade-down-left" data-aos-duration="1200">
                                 <div class="icon-wrap mb-3">
                                     <i class="bi bi-box-seam"></i>
                                 </div>
@@ -395,7 +396,7 @@
 
                         <!-- Feature 6 (Table Reservation) -->
                         <div class="col-6 col-md-4 col-lg-2">
-                            <div class="feature-card">
+                            <div class="feature-card "data-aos="fade-down-left" data-aos-duration="1200">
                                 <div class="icon-wrap mb-3">
                                     <i class="bi bi-calendar-check"></i>
                                 </div>
@@ -425,9 +426,9 @@
 
 
             <!--  Start Services  -->
-            <section class="tc-services-st2">
+            <section class="tc-services-st2 overflow-x sservice-section">
                 <div class="container">
-                    <div class="title text-center col-lg-7 mx-auto mb-50 wow fadeInUp slow" data-wow-delay="0.2s">
+                    <div class="title text-center col-lg-7 mx-auto mb-50 wow fadeInUp slow " data-aos="zoom-out" data-aos-duration="1200">
                         <h2 class="fsz-50 mb-20">
                             Coffee So Very Good Even your alarm Clock will Smile. View Services
                         </h2>
@@ -437,14 +438,14 @@
                     </div>
 
                     <!-- Desktop/Tablet Slider -->
-                    <div class="swiper customSwiper d-none d-md-block">
+                    <div class="swiper customSwiper d-none d-md-block "data-aos="fade-down-right" data-aos-duration="1200">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <a href="espressobar.html" class="service-card">
                                     <h6 class="fsz-24 lh-5 pe-lg-5"> ESPRESSO BAR (HOT)/(COLD) </h6>
                                     <div class="img">
-                                        <img src="./assets/image/ESPRESSO BAR (HOT)_(COLD).webp" alt=""
-                                            class="img-cover">
+                                        <img src="./assets/image/menu_dishes/1.png" alt=""
+                                            >
                                     </div>
                                     <div class="more-wrapper">
                                         <span class="fsz-16"> Read More + </span>
@@ -459,7 +460,7 @@
                                 <a href="#" class="service-card">
                                     <h6 class="fsz-24 lh-5 pe-lg-5"> ALTERNATE MILK (PRESSED) </h6>
                                     <div class="img">
-                                        <img src="./assets/image/ALTERNATE MILK.webp" alt="" class="img-cover">
+                                        <img src="./assets/image/ALTERNATE MILK.webp" alt="">
                                     </div>
                                     <div class="more-wrapper">
                                         <span class="fsz-16"> Read More + </span>
@@ -475,7 +476,7 @@
                                 <a href="#" class="service-card">
                                     <h6 class="fsz-24 lh-5 pe-lg-5"> FRAPPA & AFFOGATO </h6>
                                     <div class="img">
-                                        <img src="./assets/image/coffee1.webp" alt="Cafe Dalgona" class="img-cover">
+                                        <img src="./assets/image/coffee1.webp" alt="Cafe Dalgona">
                                     </div>
                                     <div class="more-wrapper">
                                         <span class="fsz-16"> Read More + </span>
@@ -492,7 +493,7 @@
                                 <a href="#" class="service-card">
                                     <h6 class="fsz-24 lh-5 pe-lg-5"> MANUAL BREWS (HOT)/(COLD) </h6>
                                     <div class="img">
-                                        <img src="./assets/image/6a.webp" alt="" class="img-cover">
+                                        <img src="./assets/image/6a.webp" alt="">
                                     </div>
                                     <div class="more-wrapper">
                                         <span class="fsz-16"> Read More + </span>
@@ -508,7 +509,7 @@
                                 <a href="#" class="service-card">
                                     <h6 class="fsz-24 lh-5 pe-lg-5"> FRESH JUICES (PRESSED) </h6>
                                     <div class="img">
-                                        <img src="./assets/image/Healthy Juice.webp" alt="" class="img-cover">
+                                        <img src="./assets/image/Healthy Juice.webp" alt="">
                                     </div>
                                     <div class="more-wrapper">
                                         <span class="fsz-16"> Read More + </span>
@@ -527,7 +528,7 @@
                     <div class="row g-4 d-block d-md-none">
                         <!-- Service Item 1 -->
                         <div class="col-12">
-                            <a href="#" class="service-card">
+                            <a href="#" class="service-card  " data-aos="fade-down-right" data-aos-duration="1200">
                                 <div class="img">
                                     <img src="./assets/image/ESPRESSO BAR (HOT)_(COLD).webp" alt="" class="img-cover">
                                 </div>
@@ -543,7 +544,7 @@
 
                         <!-- Service Item 2 -->
                         <div class="col-12">
-                            <a href="#" class="service-card">
+                            <a href="#" class="service-card  " data-aos="fade-down-right" data-aos-duration="1200">
                                 <div class="img">
                                     <img src="./assets/image/ALTERNATE MILK.webp" alt="" class="img-cover">
                                 </div>
@@ -559,7 +560,7 @@
 
                         <!-- Service Item 3 -->
                         <div class="col-12">
-                            <a href="#" class="service-card">
+                            <a href="#" class="service-card  " data-aos="fade-down-right" data-aos-duration="1200">
                                 <div class="img">
                                     <img src="./assets/image/Frappuccino.webp" alt="" class="img-cover">
                                 </div>
@@ -575,7 +576,7 @@
 
                         <!-- Service Item 4 -->
                         <div class="col-12">
-                            <a href="#" class="service-card">
+                            <a href="#" class="service-card  " data-aos="fade-down-right" data-aos-duration="1200">
                                 <div class="img">
                                     <img src="./assets/image/6a.webp" alt="" class="img-cover">
                                 </div>
@@ -591,7 +592,7 @@
 
                         <!-- Service Item 5 -->
                         <div class="col-12">
-                            <a href="#" class="service-card">
+                            <a href="#" class="service-card  " data-aos="fade-down-right" data-aos-duration="1200">
                                 <div class="img">
                                     <img src="./assets/image/Healthy Juice.webp" alt="" class="img-cover">
                                 </div>
@@ -663,9 +664,9 @@
 
 
             <!--  Start Menu  -->
-            <section class="tc-services-st2">
+            <section class="tc-services-st2 overflow-x">
                 <div class="container">
-                    <div class="title text-center col-lg-7 mx-auto mb-5">
+                    <div class="title text-center col-lg-7 mx-auto mb-5  "data-aos="zoom-out" data-aos-duration="1200">
                         <h2 class="fsz-50 mb-20"> Discover Our Coffee & Snacks Menu </h2>
                         <div class="icon icon-50 mx-auto">
                             <img src="./assets/image/fav.svg" alt="" class="img-contain">
@@ -676,8 +677,8 @@
                     <div class="row g-4">
                         <!-- Menu Item 1 -->
                         <div class="col-md-6 col-lg-3">
-                            <a href="#" class="service-card bg-card"
-                                style="background-image: url('./assets/image/manucardbg.jpeg');">
+                            <a href="#" class="service-card bg-card  "
+                                style="background-image: url('./assets/image/manucardbg.jpeg');"data-aos="fade-down-right" data-aos-duration="1200">
                                 <div class="img">
                                     <img src="./assets/image/1a.webp" alt="" class="img-cover">
                                 </div>
@@ -693,8 +694,8 @@
 
                         <!-- Menu Item 2 -->
                         <div class="col-md-6 col-lg-3">
-                            <a href="#" class="service-card bg-card"
-                                style="background-image: url('./assets/image/manucardbg.jpeg');">
+                            <a href="#" class="service-card bg-card  "
+                                style="background-image: url('./assets/image/manucardbg.jpeg');"data-aos="fade-down-right" data-aos-duration="1200">
                                 <div class="img">
                                     <img src="./assets/image/services/2.jpg" alt="" class="img-cover">
                                 </div>
@@ -710,8 +711,8 @@
 
                         <!-- Menu Item 3 -->
                         <div class="col-md-6 col-lg-3">
-                            <a href="#" class="service-card bg-card"
-                                style="background-image: url('./assets/image/manucardbg.jpeg');">
+                            <a href="#" class="service-card bg-card  "
+                                style="background-image: url('./assets/image/manucardbg.jpeg');"data-aos="fade-down-right" data-aos-duration="1200">
                                 <div class="img">
                                     <img src="./assets/image/services/3.jpg" alt="" class="img-cover">
                                 </div>
@@ -727,8 +728,8 @@
 
                         <!-- Menu Item 4 -->
                         <div class="col-md-6 col-lg-3">
-                            <a href="#" class="service-card bg-card"
-                                style="background-image: url('./assets/image/manucardbg.jpeg');">
+                            <a href="#" class="service-card bg-card  "
+                                style="background-image: url('./assets/image/manucardbg.jpeg');"data-aos="fade-down-right" data-aos-duration="1200">
                                 <div class="img">
                                     <img src="./assets/image/services/4.jpg" alt="" class="img-cover">
                                 </div>
@@ -745,8 +746,8 @@
 
                         <!-- Menu Item 5 -->
                         <div class="col-md-6 col-lg-3">
-                            <a href="#" class="service-card bg-card"
-                                style="background-image: url('./assets/image/manucardbg.jpeg');">
+                            <a href="#" class="service-card bg-card  "
+                                style="background-image: url('./assets/image/manucardbg.jpeg');"data-aos="fade-down-left" data-aos-duration="1200">
                                 <div class="img">
                                     <img src="./assets/image/services/1.jpg" alt="" class="img-cover">
                                 </div>
@@ -762,8 +763,8 @@
 
                         <!-- Menu Item 6 -->
                         <div class="col-md-6 col-lg-3">
-                            <a href="#" class="service-card bg-card"
-                                style="background-image: url('./assets/image/manucardbg.jpeg');">
+                            <a href="#" class="service-card bg-card  "
+                                style="background-image: url('./assets/image/manucardbg.jpeg');"data-aos="fade-down-left" data-aos-duration="1200">
                                 <div class="img">
                                     <img src="./assets/image/hero2.jpg" alt="" class="img-cover">
                                 </div>
@@ -779,8 +780,8 @@
 
                         <!-- Menu Item 7 -->
                         <div class="col-md-6 col-lg-3">
-                            <a href="#" class="service-card bg-card"
-                                style="background-image: url('./assets/image/manucardbg.jpeg');">
+                            <a href="#" class="service-card bg-card  "
+                                style="background-image: url('./assets/image/manucardbg.jpeg');"data-aos="fade-down-left" data-aos-duration="1200">
                                 <div class="img">
                                     <img src="./assets/image/2a.webp" alt="" class="img-cover">
                                 </div>
@@ -796,8 +797,8 @@
 
                         <!-- Menu Item 8 -->
                         <div class="col-md-6 col-lg-3">
-                            <a href="#" class="service-card bg-card"
-                                style="background-image: url('./assets/image/manucardbg.jpeg');">
+                            <a href="#" class="service-card bg-card  "
+                                style="background-image: url('./assets/image/manucardbg.jpeg');"data-aos="fade-down-left" data-aos-duration="1200">
                                 <div class="img">
                                     <img src="./assets/image/10a.webp" alt="" class="img-cover">
                                 </div>
@@ -821,9 +822,9 @@
 
 
             <!--  Start testimonials  -->
-            <section class="tc-testimonials-st2">
+            <section class="tc-testimonials-st2 overflow-x">
                 <div class="container wow fadeInUp slow" data-wow-delay="0.2s">
-                    <div class="title mb-40">
+                    <div class="title mb-40  "data-aos="zoom-out" data-aos-duration="1200">
                         <h2 class="col-lg-4 mx-auto" style="color:#EBD0BC"> <img src="./assets/image/icons/qt.svg"
                                 alt="" class="icon"> What
                             Client Says? </h2>
@@ -908,18 +909,18 @@
 
 
             <!--  Start blog  -->
-            <section class="tc-blog-st2">
+            <section class="tc-blog-st2 overflow-x">
                 <div class="container">
-                    <div class="title text-center col-lg-6 mx-auto mb-50 wow fadeInUp slow" data-wow-delay="0.2s">
+                    <div class="title text-center col-lg-6 mx-auto mb-50 wow fadeInUp slow  "data-aos="zoom-out" data-aos-duration="1200">
                         <div class="icon icon-50 mx-auto">
-                            <img src="./assets/image/vec5.png" alt="" class="img-contain">
+                            <img src="./assets/image/fav.svg" alt="" class="img-contain">
                         </div>
                         <h2 class="fsz-50 mt-15"> Latest New and blogs </h2>
                         <div class="text fsz-16 mt-20" style="color: #4A1E0D;"> Proin at lorem justo. Sed maximus risus
                             hendrerit ipsum sodales,
                             vel consequat dui ultrices. Vestibulum ante ipsum primis in faucibus orci luctus. </div>
                     </div>
-                    <div class="posts-slider wow fadeInUp slow" data-wow-delay="0.4s">
+                    <div class="posts-slider wow fadeInUp slow  " data-wow-delay="0.4s" data-aos="fade-down-left" data-aos-duration="1200">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="post-card">
@@ -1205,7 +1206,10 @@
         <!-- === main === -->
         <script src="./assets/main.js"></script>
 
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script> 
 
 </body>
 </html>

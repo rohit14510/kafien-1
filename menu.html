@@ -36,6 +36,7 @@
 
     <!-- ✅ Animate.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- ✅ Swiper 8 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
@@ -247,14 +248,14 @@
         <!--  End navbar  -->
 
         <!-- Menu Section with Accordion -->
-        <section class="menu-section">
-            <div class="container">
-                <h2 class="text-center mb-5">KAEFIN MENU</h2>
+        <section class="menu-section overflow-x">
+            <div class="container ">
+                <h2 class="text-center mb-5"data-aos="zoom-out" data-aos-duration="1200">KAEFIN MENU</h2>
 
                 <!-- Menu Story -->
                 <div class="row justify-content-center">
                     <div class="col-12 col-lg-10">
-                        <div class="menu-story">
+                        <div class="menu-story"data-aos="zoom-out" data-aos-duration="1200">
                             <p>Three brothers, united by their passion for coffee, started Kaefin with a simple dream -
                                 to create a space where every cup tells a story. From our hand-selected beans roasted
                                 daily to the warmth of our crafted beverages, every element reflects our commitment to
@@ -266,7 +267,7 @@
 
                 <div class="row">
                     <!-- Left Column -->
-                    <div class="col-12 col-lg-6 menu-column">
+                    <div class="col-12 col-lg-6 menu-column"data-aos="fade-down-right" data-aos-duration="1200">
                         <!-- Espresso Bar (Hot) -->
                         <div class="menu-accordion">
                             <button class="menu-accordion-header active" data-target="espresso-hot">
@@ -371,7 +372,7 @@
                     </div>
 
                     <!-- Right Column -->
-                    <div class="col-12 col-lg-6 menu-column">
+                    <div class="col-12 col-lg-6 menu-column"data-aos="fade-down-left" data-aos-duration="1200">
                         <!-- Manual Brews (Hot) -->
                         <div class="menu-accordion">
                             <button class="menu-accordion-header" data-target="manual-hot">
@@ -655,7 +656,10 @@
         <!-- === main === -->
         <script src="./assets/main.js"></script>
 
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script> 
 
 </body>
 
